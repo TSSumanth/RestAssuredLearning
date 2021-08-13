@@ -1,0 +1,7 @@
+<suite name ="executor">
+<test name = "testing xml file">
+	<packages>
+		<package  name ="testng"></package > 
+	</packages>
+</test>
+</suite>
