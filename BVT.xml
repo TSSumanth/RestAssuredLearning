@@ -1,7 +1,11 @@
 <suite name ="executor">
-<test name = "testing xml file">
+<listeners>
+	<listener class-name = "utilites.TestNgListner"/>
+</listeners>
+<test name = "BVT Tests">
 	<packages>
 		<package  name ="testng"></package > 
+		<package  name ="pojo"></package > 
 	</packages>
 </test>
 </suite>

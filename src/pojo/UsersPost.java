@@ -7,7 +7,7 @@ import io.restassured.response.Response;
 
 public class UsersPost {
 
-	public static void main(String[] args) {
+	public static void uerspost() {
 		
 		RestAssured.baseURI="https://reqres.in/api";
 		Users postpayload = new Users();

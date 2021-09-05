@@ -23,13 +23,12 @@ public class BeforeafterSuite {
 		map.put("Name3", "value3");
 		map.put("Name4", "value4");
 		
-		data[1][1] = map;
-		data[2][1] = map;
-		data[3][1] = map;
-		data[4][1] = map;
-		data[5][1] = map;
-		data[6][1] = map;
-		data[7][1] = map;
+		data[1][0] = map;
+		data[2][0] = map;
+		data[3][0] = map;
+		data[4][0] = map;
+		data[5][0] = map;
+		data[6][0] = map;
 	}
 	
 	

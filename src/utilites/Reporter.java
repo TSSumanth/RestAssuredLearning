@@ -1,6 +1,6 @@
 package utilites;
 
-public class Reporter 
+public class Reporter extends FrameworkLib
 {
 	
 	

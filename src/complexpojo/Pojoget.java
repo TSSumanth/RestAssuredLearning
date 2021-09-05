@@ -22,7 +22,7 @@ public class Pojoget {
 		
 		System.out.println("Support Text: "+ responseuser.getSupport().getText());
 		System.out.println("status code: "+ statuscode);
-		
+		System.out.println("id of first user: "+ responseuser.getData().get(0).getId());
 	}
 
 }

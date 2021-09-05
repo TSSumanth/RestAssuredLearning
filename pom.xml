@@ -18,6 +18,12 @@
 	    <artifactId>testng</artifactId>
 	    <version>7.3.0</version>
 	</dependency>  	
+	
+	<dependency>
+			    <groupId>com.aventstack</groupId>
+			    <artifactId>extentreports</artifactId>
+			    <version>4.0.0</version>
+	</dependency>
   	
   	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 	<dependency>
@@ -26,9 +32,8 @@
 	    <version>2.12.1</version>
 	</dependency>
   	
-  	
-  	
   </dependencies>
+
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -40,6 +45,15 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-surefire-plugin</artifactId>
+  			<version>3.0.0-M3</version>
+				<configuration>
+					<suiteXmlFiles>${suitexmlfile}</suiteXmlFiles>
+					 <testFailureIgnore>true</testFailureIgnore>
+				</configuration>
+			</plugin>
     </plugins>
   </build>
 </project>
